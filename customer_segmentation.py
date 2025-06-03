@@ -6,7 +6,7 @@ from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 #load dataset
-df = pd.read_csv('customers.csv')
+df = pd.read_csv('data/customers.csv')
 
 print(df.head())
 #Data Preprocessing

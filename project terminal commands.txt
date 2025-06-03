@@ -1,0 +1,38 @@
+project terminal commands
+1. git init
+2. git status:
+On branch main
+
+No commits yet
+
+nothing to commit 
+3. git add .
+4. git commit -m "Add initial project files":
+Add initial project files
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 customer_segmentation.py
+5. git push -u origin main:
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 238 bytes | 238.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/keerthanapen/customer-segmentation.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+6. python -m venv venv:
+virtual environment
+7. venv\Scripts\activate:
+8. pip install pandas numpy matplotlib seaborn scikit-learn:
+download python libraries Installing collected packages: pytz, tzdata, threadpoolctl, six, pyparsing, pillow, packaging, numpy, kiwisolver, joblib, fonttools, cycler, scipy, python-dateutil, contourpy, scikit-learn, pandas, matplotlib, seaborn.These are the libraries we will use for data processing, clustering, and visualization.
+9. python customer_segmentation.py:
+to run the python code in vs
+10. 10.1  git add customer_segmentation.py
+>> 10.2 git commit -m "Run clustering and add visualization"
+>> 10.3 git push:
+to commit and push the data
+
+
+
+
